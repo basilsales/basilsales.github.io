@@ -1,0 +1,1446 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>俄罗斯女csgo大姐姐_俄服女选手直播与赛事_CS2女玩家社区动态</title>
+<meta name="description" content="俄罗斯女csgo大姐姐专区，整理俄服女选手直播时间、赛事战绩、常用外设与社区讨论，收录近30天更新条目与选手档案，适合关注女子电竞与俄服CS2生态的观众查阅。">
+<meta name="keywords" content="俄服女选手,女子电竞直播,CS2女子战队,俄罗斯主播外设,FACEIT女子赛">
+<style>
+:root{
+  --bg:#0d1117;
+  --bg-soft:#141a23;
+  --panel:#19212c;
+  --panel-2:#1f2937;
+  --line:#2b3646;
+  --line-soft:#232d3a;
+  --text:#e6edf6;
+  --text-2:#a9b6c8;
+  --text-3:#7c8a9e;
+  --accent:#ff5c39;
+  --accent-2:#ffb03a;
+  --accent-soft:rgba(255,92,57,.12);
+  --cyan:#3fd0d4;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+  --maxw:1360px;
+  --head-h:64px;
+  --notice-h:40px;
+  --gap:22px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 500px at 15% -10%, rgba(255,92,57,.10), transparent 60%),
+    radial-gradient(900px 420px at 90% 0%, rgba(63,208,212,.07), transparent 60%),
+    var(--bg);
+  color:var(--text);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,sans-serif;
+  font-size:15px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;letter-spacing:.2px}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font-family:inherit}
+:focus-visible{outline:2px solid var(--accent-2);outline-offset:2px;border-radius:4px}
+
+/* ============ 公告条 ============ */
+.notice-bar{
+  position:sticky;top:0;z-index:60;
+  height:var(--notice-h);
+  display:flex;align-items:center;
+  background:linear-gradient(90deg,#2a1408,#3a1a08 45%,#22120a);
+  border-bottom:1px solid rgba(255,176,58,.25);
+  font-size:13px;
+  overflow:hidden;
+}
+.notice-inner{
+  max-width:var(--maxw);margin:0 auto;padding:0 20px;width:100%;
+  display:flex;align-items:center;gap:12px;
+}
+.notice-tag{
+  flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;
+  background:var(--accent);color:#1a0c05;font-weight:700;font-size:11px;
+  padding:2px 9px;border-radius:20px;letter-spacing:.5px;
+}
+.notice-scroll{display:flex;gap:28px;white-space:nowrap;overflow:hidden;color:#ffd9a8}
+.notice-scroll span{opacity:.95}
+.notice-scroll b{color:#fff;font-weight:600}
+
+/* ============ 页头 ============ */
+.site-header{
+  position:sticky;top:var(--notice-h);z-index:55;
+  height:var(--head-h);
+  background:rgba(13,17,23,.88);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.header-inner{
+  max-width:var(--maxw);margin:0 auto;padding:0 20px;height:100%;
+  display:flex;align-items:center;gap:26px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.brand-mark{width:34px;height:34px;flex:0 0 auto}
+.brand-text{display:flex;flex-direction:column;line-height:1.15}
+.brand-name{font-size:17px;font-weight:800;letter-spacing:.3px}
+.brand-sub{font-size:10.5px;color:var(--text-3);letter-spacing:1.6px;text-transform:uppercase}
+.main-nav{display:flex;align-items:center;gap:4px;flex:1 1 auto;overflow:hidden}
+.main-nav a{
+  font-size:13.5px;color:var(--text-2);padding:7px 11px;border-radius:8px;
+  white-space:nowrap;transition:.18s;
+}
+.main-nav a:hover{color:var(--text);background:var(--panel-2)}
+.header-actions{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.search-box{
+  display:flex;align-items:center;gap:6px;
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:9px;padding:5px 9px;
+}
+.search-box svg{flex:0 0 auto;opacity:.6}
+.search-box input{
+  background:transparent;border:0;color:var(--text);font-size:13px;width:140px;outline:none;
+}
+.search-box input::placeholder{color:var(--text-3)}
+.btn-live{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--accent);color:#fff;font-size:13px;font-weight:600;
+  padding:7px 14px;border-radius:9px;border:0;cursor:pointer;transition:.18s;
+}
+.btn-live:hover{background:#ff7355}
+.btn-live .dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.mobile-toggle{display:none}
+
+/* ============ 首屏 ============ */
+.hero{
+  max-width:var(--maxw);margin:0 auto;padding:38px 20px 10px;
+  display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;letter-spacing:1.4px;color:var(--accent-2);
+  background:var(--accent-soft);border:1px solid rgba(255,92,57,.28);
+  padding:4px 12px;border-radius:20px;margin-bottom:16px;
+}
+.hero h1{
+  font-size:clamp(30px,4.1vw,50px);
+  letter-spacing:-.5px;
+  background:linear-gradient(100deg,#fff 20%,#ffc9a8 70%,var(--accent) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  margin-bottom:16px;
+}
+.hero-desc{color:var(--text-2);font-size:15.5px;max-width:600px;margin-bottom:22px}
+.hero-desc b{color:var(--accent-2);font-weight:600}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:26px}
+.btn-primary,.btn-ghost{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;border:1px solid transparent;transition:.18s;
+}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 8px 22px rgba(255,92,57,.28)}
+.btn-primary:hover{transform:translateY(-1px);background:#ff7355}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--text-2)}
+.btn-ghost:hover{border-color:var(--accent-2);color:var(--text)}
+.hero-stats{display:flex;flex-wrap:wrap;gap:26px}
+.hero-stats div strong{display:block;font-size:23px;color:#fff;font-weight:800}
+.hero-stats div span{font-size:12px;color:var(--text-3)}
+.hero-visual{
+  position:relative;border-radius:20px;overflow:hidden;
+  border:1px solid var(--line);background:linear-gradient(160deg,#1b2430,#11161e);
+  box-shadow:var(--shadow);
+  min-height:320px;
+  display:flex;align-items:center;justify-content:center;
+}
+.hero-visual svg{width:100%;height:auto;display:block}
+.hero-badge{
+  position:absolute;left:16px;bottom:16px;
+  display:flex;align-items:center;gap:9px;
+  background:rgba(13,17,23,.82);border:1px solid var(--line);
+  padding:8px 13px;border-radius:10px;font-size:12px;color:var(--text-2);
+  backdrop-filter:blur(6px);
+}
+.hero-badge .live-dot{width:8px;height:8px;border-radius:50%;background:#ff4d4d;box-shadow:0 0 0 4px rgba(255,77,77,.18)}
+
+/* ============ 布局：三栏门户 ============ */
+.layout{
+  max-width:var(--maxw);margin:0 auto;padding:26px 20px 0;
+  display:grid;
+  grid-template-columns:178px minmax(0,1fr) 258px;
+  gap:var(--gap);
+  align-items:start;
+}
+.side-left,.side-right{position:sticky;top:calc(var(--notice-h) + var(--head-h) + 18px);align-self:start}
+.col-main{min-width:0;display:flex;flex-direction:column;gap:var(--gap)}
+
+/* ============ 通用板块 ============ */
+.section{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:22px 24px;
+  scroll-margin-top:calc(var(--notice-h) + var(--head-h) + 14px);
+}
+.section-head{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:14px;
+  margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--line-soft);
+}
+.section-head h2{font-size:19px;display:flex;align-items:center;gap:9px}
+.section-head h2::before{
+  content:"";width:4px;height:19px;border-radius:3px;
+  background:linear-gradient(180deg,var(--accent),var(--accent-2));
+}
+.section-head .hint{font-size:12.5px;color:var(--text-3);white-space:nowrap}
+.section-intro{color:var(--text-2);font-size:14.5px;margin-bottom:16px;max-width:820px}
+
+/* ============ 左栏频道 ============ */
+.side-card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;margin-bottom:var(--gap);
+}
+.side-card .side-title{
+  font-size:12px;letter-spacing:1.6px;color:var(--text-3);
+  padding:12px 15px;border-bottom:1px solid var(--line-soft);font-weight:700;
+}
+.channel-list{padding:8px}
+.channel-list a{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:8px 10px;border-radius:8px;font-size:13.5px;color:var(--text-2);transition:.16s;
+}
+.channel-list a:hover{background:var(--panel-2);color:#fff}
+.channel-list a .cnt{font-size:11px;color:var(--text-3)}
+.channel-list a.active{background:var(--accent-soft);color:var(--accent-2);font-weight:600}
+
+/* ============ 右栏 ============ */
+.rank-list{padding:10px 14px 14px}
+.rank-list li{
+  display:flex;gap:10px;align-items:flex-start;
+  padding:9px 0;border-bottom:1px dashed var(--line-soft);font-size:13.5px;
+}
+.rank-list li:last-child{border-bottom:0}
+.rank-no{
+  flex:0 0 20px;height:20px;border-radius:5px;background:var(--panel-2);
+  color:var(--text-3);font-size:11.5px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;margin-top:2px;
+}
+.rank-list li:nth-child(1) .rank-no{background:var(--accent);color:#fff}
+.rank-list li:nth-child(2) .rank-no{background:var(--accent-2);color:#241505}
+.rank-list li:nth-child(3) .rank-no{background:#3a4a5f;color:#fff}
+.rank-list .r-name{color:var(--text);font-weight:600;display:block}
+.rank-list .r-meta{font-size:11.5px;color:var(--text-3)}
+.update-flow{padding:6px 14px 14px}
+.update-flow li{
+  position:relative;padding:8px 0 8px 16px;font-size:13px;color:var(--text-2);
+  border-left:1px solid var(--line-soft);margin-left:4px;
+}
+.update-flow li::before{
+  content:"";position:absolute;left:-4px;top:15px;width:7px;height:7px;border-radius:50%;
+  background:var(--accent);box-shadow:0 0 0 3px rgba(255,92,57,.15);
+}
+.update-flow b{color:var(--text);font-weight:600}
+.update-flow .t{display:block;font-size:11px;color:var(--text-3);margin-top:1px}
+
+/* ============ 概览 ============ */
+.overview-grid{display:grid;grid-template-columns:1fr;gap:14px}
+.overview-text p{margin-bottom:12px;color:var(--text-2);font-size:14.5px}
+.overview-text p:last-child{margin-bottom:0}
+.overview-text strong{color:var(--text)}
+.overview-facts{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:6px;
+}
+.fact{
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:10px;
+  padding:11px 13px;
+}
+.fact b{display:block;font-size:16px;color:var(--accent-2)}
+.fact span{font-size:11.5px;color:var(--text-3)}
+
+/* ============ 精选卡片 ============ */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:12px;
+  overflow:hidden;display:flex;flex-direction:column;transition:.2s;
+}
+.card:hover{border-color:rgba(255,92,57,.45);transform:translateY(-2px)}
+.card-thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:#0f141b}
+.card-thumb img{width:100%;height:100%;object-fit:cover}
+.card-thumb .badge{
+  position:absolute;top:9px;left:9px;
+  font-size:11px;font-weight:600;padding:2px 8px;border-radius:6px;
+  background:rgba(13,17,23,.82);color:var(--accent-2);border:1px solid rgba(255,176,58,.3);
+  backdrop-filter:blur(4px);
+}
+.card-body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-body h3{font-size:15px;line-height:1.45}
+.card-body .desc{font-size:12.8px;color:var(--text-2);line-height:1.65;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{
+  font-size:11px;color:var(--text-3);background:rgba(255,255,255,.045);
+  padding:2px 8px;border-radius:20px;border:1px solid var(--line-soft);
+}
+.card-meta{
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:11.5px;color:var(--text-3);padding-top:8px;border-top:1px solid var(--line-soft);
+}
+.card-meta .hot{color:var(--accent-2);font-weight:600}
+
+/* ============ 最新更新 ============ */
+.live-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.live-item{
+  display:flex;gap:11px;align-items:flex-start;
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:10px;
+  padding:11px 13px;
+}
+.live-item .time{
+  flex:0 0 auto;font-size:11.5px;color:var(--accent-2);font-weight:700;
+  background:var(--accent-soft);padding:2px 7px;border-radius:6px;margin-top:2px;
+}
+.live-item h4{font-size:13.5px;margin-bottom:2px}
+.live-item p{font-size:12.3px;color:var(--text-3);line-height:1.6}
+
+/* ============ 分类入口 ============ */
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.cat{
+  display:flex;flex-direction:column;gap:5px;
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:11px;
+  padding:14px 15px;transition:.18s;
+}
+.cat:hover{border-color:var(--accent);background:#222c3a}
+.cat b{font-size:14.5px;color:var(--text)}
+.cat span{font-size:12px;color:var(--text-3);line-height:1.5}
+.cat .cnt{font-size:11px;color:var(--accent-2);margin-top:2px}
+
+/* 筛选按钮 */
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.filter-bar button{
+  background:var(--panel-2);border:1px solid var(--line);color:var(--text-2);
+  padding:6px 14px;border-radius:20px;font-size:12.8px;cursor:pointer;transition:.16s;
+}
+.filter-bar button:hover{border-color:var(--accent-2);color:var(--text)}
+.filter-bar button.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.filter-result{font-size:12.5px;color:var(--text-3);margin-bottom:10px}
+.filter-result .none{color:var(--accent-2)}
+
+/* ============ 深度解析 ============ */
+.article-body{max-width:840px}
+.article-body h3{
+  font-size:16.5px;margin:24px 0 10px;padding-left:11px;
+  border-left:3px solid var(--accent);line-height:1.4;
+}
+.article-body h3:first-child{margin-top:0}
+.article-body p{color:var(--text-2);font-size:14.5px;margin-bottom:12px}
+.article-body ul{margin:0 0 14px;display:flex;flex-direction:column;gap:7px}
+.article-body ul li{
+  position:relative;padding-left:18px;font-size:14px;color:var(--text-2);
+}
+.article-body ul li::before{
+  content:"";position:absolute;left:3px;top:10px;width:6px;height:6px;border-radius:2px;
+  background:var(--accent-2);transform:rotate(45deg);
+}
+.article-body strong{color:var(--text)}
+.compare-table{width:100%;border-collapse:collapse;margin:6px 0 18px;font-size:13.3px}
+.compare-table th,.compare-table td{
+  border:1px solid var(--line-soft);padding:9px 12px;text-align:left;vertical-align:top;
+}
+.compare-table th{background:var(--panel-2);color:var(--text);font-weight:600;font-size:12.8px}
+.compare-table td{color:var(--text-2)}
+.compare-table tr:nth-child(even) td{background:rgba(255,255,255,.018)}
+
+/* ============ 体验指南 ============ */
+.steps{display:flex;flex-direction:column;gap:12px;counter-reset:step}
+.step{
+  display:flex;gap:15px;background:var(--panel-2);border:1px solid var(--line-soft);
+  border-radius:11px;padding:15px 17px;
+}
+.step::before{
+  counter-increment:step;content:counter(step,decimal-leading-zero);
+  flex:0 0 auto;font-size:19px;font-weight:800;color:var(--accent);
+  font-variant-numeric:tabular-nums;line-height:1.2;
+}
+.step h4{font-size:14.5px;margin-bottom:4px}
+.step p{font-size:13.3px;color:var(--text-2);line-height:1.7}
+
+/* ============ FAQ ============ */
+.faq-list{display:flex;flex-direction:column;gap:9px}
+.faq-list details{
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:10px;
+  overflow:hidden;
+}
+.faq-list summary{
+  list-style:none;cursor:pointer;padding:13px 16px;font-size:14px;font-weight:600;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{
+  content:"+";flex:0 0 auto;font-size:18px;color:var(--accent-2);font-weight:400;line-height:1;
+}
+.faq-list details[open] summary::after{content:"–"}
+.faq-list details[open] summary{color:var(--accent-2);border-bottom:1px solid var(--line-soft)}
+.faq-list .ans{padding:13px 16px 15px;font-size:13.5px;color:var(--text-2);line-height:1.8}
+.faq-list .ans b{color:var(--text)}
+
+/* ============ 评论 ============ */
+.comment-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.comment{
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:10px;
+  padding:12px 14px;display:flex;gap:11px;
+}
+.avatar{
+  flex:0 0 32px;width:32px;height:32px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:13px;font-weight:700;color:#fff;
+}
+.comment .c-body{min-width:0}
+.comment .c-top{display:flex;align-items:center;gap:8px;margin-bottom:3px}
+.comment .c-name{font-size:13px;font-weight:600;color:var(--text)}
+.comment .c-time{font-size:11px;color:var(--text-3)}
+.comment .c-text{font-size:12.8px;color:var(--text-2);line-height:1.7}
+
+/* ============ 资讯 ============ */
+.news-list{display:flex;flex-direction:column;gap:12px}
+.news-item{
+  display:grid;grid-template-columns:132px 1fr;gap:14px;
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:11px;
+  padding:11px;transition:.18s;
+}
+.news-item:hover{border-color:rgba(63,208,212,.4)}
+.news-item img{width:132px;height:88px;object-fit:cover;border-radius:8px}
+.news-item h4{font-size:14px;margin-bottom:4px}
+.news-item p{font-size:12.6px;color:var(--text-3);line-height:1.65}
+.news-item .n-date{font-size:11.5px;color:var(--accent-2);margin-top:5px;display:block}
+
+/* ============ 相关推荐 ============ */
+.rec-tags{display:flex;flex-wrap:wrap;gap:9px}
+.rec-tags a{
+  font-size:13px;color:var(--text-2);padding:7px 14px;border-radius:9px;
+  background:var(--panel-2);border:1px solid var(--line-soft);transition:.16s;
+}
+.rec-tags a:hover{border-color:var(--accent-2);color:var(--accent-2);background:#222c3a}
+.rec-tags a small{color:var(--text-3);margin-left:6px;font-size:11px}
+
+/* ============ 时间线 ============ */
+.timeline{position:relative;padding-left:20px}
+.timeline::before{
+  content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;
+  background:linear-gradient(180deg,var(--accent),rgba(255,92,57,.08));
+}
+.timeline li{position:relative;padding:0 0 16px 14px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{
+  content:"";position:absolute;left:-19px;top:7px;width:10px;height:10px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--accent);
+}
+.timeline .tl-date{font-size:11.5px;color:var(--accent-2);font-weight:700;letter-spacing:.4px}
+.timeline .tl-title{font-size:14px;font-weight:600;margin:1px 0 2px}
+.timeline .tl-desc{font-size:12.8px;color:var(--text-3);line-height:1.65}
+
+/* ============ 页尾 ============ */
+.site-footer{
+  margin-top:44px;border-top:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(20,26,35,0),rgba(20,26,35,.85));
+}
+.footer-inner{
+  max-width:var(--maxw);margin:0 auto;padding:38px 20px 26px;
+  display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;
+}
+.footer-brand p{font-size:13px;color:var(--text-3);margin-top:10px;line-height:1.8;max-width:300px}
+.footer-col h4{font-size:13px;color:var(--text);margin-bottom:12px;letter-spacing:.5px}
+.footer-col a{display:block;font-size:12.8px;color:var(--text-3);padding:3.5px 0;transition:.15s}
+.footer-col a:hover{color:var(--accent-2)}
+.footer-bottom{
+  border-top:1px solid var(--line-soft);padding:16px 20px;
+  max-width:var(--maxw);margin:0 auto;
+  display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
+  font-size:12px;color:var(--text-3);
+}
+.footer-bottom span{line-height:1.7}
+
+/* ============ 响应式 ============ */
+@media (max-width:1180px){
+  .layout{grid-template-columns:170px minmax(0,1fr);}
+  .side-right{display:none}
+  .card-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:1024px){
+  .hero{grid-template-columns:1fr;gap:26px}
+  .hero-visual{min-height:260px;max-width:560px}
+  .main-nav{display:none}
+  .mobile-toggle{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:36px;height:36px;border-radius:9px;background:var(--panel);
+    border:1px solid var(--line);color:var(--text-2);cursor:pointer;
+  }
+  .main-nav.open{
+    display:flex;flex-direction:column;position:absolute;top:var(--head-h);left:0;right:0;
+    background:var(--bg-soft);border-bottom:1px solid var(--line);padding:10px;
+    max-height:60vh;overflow:auto;gap:2px;z-index:70;
+  }
+  .main-nav.open a{width:100%;padding:10px 14px}
+  .layout{grid-template-columns:1fr}
+  .side-left{position:static;order:2}
+  .col-main{order:1}
+  .channel-list{display:flex;flex-wrap:wrap;gap:6px}
+  .channel-list a{flex:0 0 auto;border:1px solid var(--line-soft);padding:6px 12px;font-size:12.5px}
+  .channel-list a .cnt{display:none}
+  .overview-facts{grid-template-columns:repeat(2,1fr)}
+  .footer-inner{grid-template-columns:1fr 1fr;gap:24px}
+}
+@media (max-width:740px){
+  :root{--gap:16px;--head-h:58px}
+  .notice-inner{padding:0 14px}
+  .notice-scroll span:nth-child(n+2){display:none}
+  .header-inner{padding:0 14px;gap:12px}
+  .brand-name{font-size:15px}
+  .brand-sub{display:none}
+  .search-box input{width:90px}
+  .btn-live{padding:6px 11px;font-size:12px}
+  .hero{padding:26px 14px 6px}
+  .hero h1{font-size:29px}
+  .hero-desc{font-size:14px}
+  .hero-stats{gap:18px}
+  .hero-stats div strong{font-size:19px}
+  .layout{padding:18px 14px 0}
+  .section{padding:17px 15px}
+  .section-head{flex-wrap:wrap;gap:6px}
+  .section-head h2{font-size:16.5px}
+  .section-head .hint{font-size:11.5px}
+  .card-grid{grid-template-columns:1fr}
+  .live-list{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:1fr 1fr}
+  .comment-grid{grid-template-columns:1fr}
+  .news-item{grid-template-columns:1fr}
+  .news-item img{width:100%;height:150px}
+  .overview-facts{grid-template-columns:1fr 1fr}
+  .footer-inner{grid-template-columns:1fr;padding:28px 14px 20px}
+  .footer-bottom{flex-direction:column;padding:14px}
+  .compare-table{font-size:12px}
+  .compare-table th,.compare-table td{padding:7px 8px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="notice-bar" id="notice">
+  <div class="notice-inner">
+    <span class="notice-tag">◆ 今日更新</span>
+    <div class="notice-scroll">
+      <span><b>11-25</b> 娜斯佳「Anastasia_K」俄服天梯 38 杀录像上传，附完整 POV</span>
+      <span><b>11-24</b> SPARKS 女队公布 FACEIT 冬季赛首发五人名单</span>
+      <span><b>11-23</b> 新增 6 条选手外设与灵敏度参数档案</span>
+      <span><b>11-22</b> 「Katya_AK」狙击教学第 4 期上线，含 Mirage 中路架枪点位</span>
+    </div>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/#overview" aria-label="俄罗斯女csgo大姐姐 首页">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ff5c39"/>
+            <stop offset="1" stop-color="#ffb03a"/>
+          </linearGradient>
+        </defs>
+        <path d="M20 3 35 10v11c0 8-6.2 14.4-15 16C11.2 35.4 5 29 5 21V10L20 3Z" fill="url(#lg1)" opacity=".16" stroke="url(#lg1)" stroke-width="1.6"/>
+        <path d="M13 15h5.4l1.6 4.2 1.6-4.2H27l-4.3 10h-2.9L17.6 20l-1.2 3.2h4.1l1.3 3.2h-7.4L13 15Z" fill="url(#lg1)"/>
+        <circle cx="28.5" cy="13.5" r="2.4" fill="#3fd0d4"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">俄罗斯女csgo大姐姐</span>
+        <span class="brand-sub">RU CS2 SISTERS</span>
+      </span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#featured">精选档案</a>
+      <a href="/#updates">最新动态</a>
+      <a href="/#categories">分类</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">观看指南</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#comments">社区评论</a>
+      <a href="/#news">相关资讯</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-box">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="globalSearch" placeholder="搜选手 / 战队 / 地图点位" aria-label="站内搜索选手、战队或点位">
+      </div>
+      <button class="btn-live" type="button" aria-label="查看正在进行中的直播">
+        <span class="dot"></span>直播中
+      </button>
+      <button class="mobile-toggle" id="navToggle" type="button" aria-label="展开导航菜单" aria-expanded="false" aria-controls="mainNav">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero" id="hero">
+  <div>
+    <span class="hero-eyebrow">◆ 俄服女子 CS2 生态档案</span>
+    <h1>俄罗斯女csgo大姐姐</h1>
+    <p class="hero-desc">
+      从莫斯科到喀山，俄服女子 CS2 选手正在把天梯高分、直播教学和小型线下赛连成一条完整的观看路径。
+      这里收录 <b>28 位活跃女选手</b>的直播时间、主玩地图、外设参数与近 30 天赛事战绩，也整理
+      FACEIT 女子赛、独联体线上邀请赛和社区每周榜单，方便你按「想看谁、想学什么、想追哪场」三层直接定位。
+    </p>
+    <div class="hero-cta">
+      <a class="btn-primary" href="/#featured">浏览选手档案 →</a>
+      <a class="btn-ghost" href="/#updates">看今日更新</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>28</strong><span>活跃选手档案</span></div>
+      <div><strong>14</strong><span>近 30 天赛事</span></div>
+      <div><strong>96</strong><span>外设与参数条目</span></div>
+      <div><strong>2.1k</strong><span>社区讨论帖</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <svg viewBox="0 0 520 380" role="img" aria-label="俄服女子CS2选手直播界面构图示意">
+      <defs>
+        <linearGradient id="hv1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ff5c39" stop-opacity=".9"/>
+          <stop offset="1" stop-color="#ffb03a" stop-opacity=".35"/>
+        </linearGradient>
+        <linearGradient id="hv2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#3fd0d4" stop-opacity=".35"/>
+          <stop offset="1" stop-color="#3fd0d4" stop-opacity="0"/>
+        </linearGradient>
+        <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+          <path d="M26 0H0v26" fill="none" stroke="#2b3646" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="520" height="380" fill="#11161e"/>
+      <rect width="520" height="380" fill="url(#grid)" opacity=".55"/>
+      <rect x="0" y="0" width="520" height="380" fill="url(#hv2)" opacity=".5"/>
+      <!-- 显示器 -->
+      <rect x="58" y="52" width="404" height="228" rx="12" fill="#0b0f15" stroke="#2b3646"/>
+      <rect x="72" y="66" width="376" height="200" rx="7" fill="#141b24"/>
+      <!-- 准星 -->
+      <g stroke="#ff5c39" stroke-width="2.4" stroke-linecap="round">
+        <path d="M260 148v14M260 184v14M240 166h14M286 166h14"/>
+      </g>
+      <circle cx="260" cy="166" r="4" fill="none" stroke="#ff5c39" stroke-width="1.6"/>
+      <!-- 数据条 -->
+      <g fill="#2b3646">
+        <rect x="84" y="214" width="120" height="8" rx="4"/>
+        <rect x="84" y="230" width="86" height="8" rx="4"/>
+        <rect x="84" y="246" width="104" height="8" rx="4"/>
+      </g>
+      <g fill="url(#hv1)">
+        <rect x="84" y="214" width="86" height="8" rx="4"/>
+        <rect x="84" y="230" width="52" height="8" rx="4"/>
+        <rect x="84" y="246" width="72" height="8" rx="4"/>
+      </g>
+      <!-- 击杀计数 -->
+      <g font-family="system-ui,sans-serif">
+        <text x="352" y="112" fill="#7c8a9e" font-size="10" letter-spacing="2">KILLS</text>
+        <text x="352" y="152" fill="#ffffff" font-size="40" font-weight="800">38</text>
+        <text x="352" y="180" fill="#3fd0d4" font-size="11">FACEIT Lv.10 · 2.14 KD</text>
+      </g>
+      <!-- 摄像头小窗 -->
+      <rect x="352" y="196" width="96" height="62" rx="8" fill="#1c2531" stroke="#3fd0d4" stroke-opacity=".5"/>
+      <circle cx="400" cy="218" r="13" fill="#2f3c4d"/>
+      <path d="M385 250c4-13 26-13 30 0Z" fill="#2f3c4d"/>
+      <text x="352" y="272" fill="#7c8a9e" font-size="9.5">RU · MOSCOW</text>
+      <!-- 直播状态 -->
+      <g transform="translate(72,284)">
+        <rect width="120" height="26" rx="13" fill="#ff5c39" opacity=".16" stroke="#ff5c39" stroke-opacity=".5"/>
+        <circle cx="16" cy="13" r="4" fill="#ff4d4d"/>
+        <text x="28" y="17" fill="#ffb03a" font-size="11" font-weight="600">LIVE 直播中</text>
+      </g>
+      <g transform="translate(204,284)">
+        <rect width="150" height="26" rx="13" fill="#3fd0d4" opacity=".1" stroke="#3fd0d4" stroke-opacity=".35"/>
+        <text x="14" y="17" fill="#3fd0d4" font-size="11">MAP: MIRAGE · CT</text>
+      </g>
+      <!-- 观众数 -->
+      <text x="410" y="302" fill="#7c8a9e" font-size="11">观众 12,480</text>
+      <!-- 底部装饰条 -->
+      <g fill="#232d3a">
+        <rect x="58" y="330" width="92" height="24" rx="6"/>
+        <rect x="160" y="330" width="92" height="24" rx="6"/>
+        <rect x="262" y="330" width="92" height="24" rx="6"/>
+        <rect x="364" y="330" width="98" height="24" rx="6"/>
+      </g>
+      <g fill="#ffb03a" font-size="10" font-family="system-ui,sans-serif">
+        <text x="72" y="346">AK-47 · 47%</text>
+        <text x="174" y="346">AWP · 31%</text>
+        <text x="276" y="346">M4A1-S · 14%</text>
+        <text x="378" y="346">其他 · 8%</text>
+      </g>
+    </svg>
+    <div class="hero-badge"><span class="live-dot"></span> Anastasia_K 正在直播 · Mirage</div>
+  </div>
+</section>
+
+<!-- 主体三栏布局 -->
+<div class="layout">
+
+  <!-- 左栏频道 -->
+  <aside class="side-left" aria-label="频道索引">
+    <div class="side-card">
+      <div class="side-title">频道索引</div>
+      <nav class="channel-list" aria-label="频道分类">
+        <a href="/#featured" class="active">选手档案 <span class="cnt">28</span></a>
+        <a href="/#updates">直播动态 <span class="cnt">32</span></a>
+        <a href="/#categories">女子战队 <span class="cnt">11</span></a>
+        <a href="/#categories">狙击手 <span class="cnt">9</span></a>
+        <a href="/#categories">指挥位 <span class="cnt">7</span></a>
+        <a href="/#categories">外设参数 <span class="cnt">96</span></a>
+        <a href="/#categories">地图点位 <span class="cnt">41</span></a>
+        <a href="/#categories">赛事日历 <span class="cnt">14</span></a>
+        <a href="/#categories">新人入门 <span class="cnt">18</span></a>
+        <a href="/#news">社区资讯 <span class="cnt">26</span></a>
+      </nav>
+    </div>
+    <div class="side-card">
+      <div class="side-title">本周热门标签</div>
+      <div style="padding:12px 14px 15px" class="rec-tags">
+        <a href="/#featured">Mirage 中路</a>
+        <a href="/#featured">AWP 架点</a>
+        <a href="/#featured">天梯 10 级</a>
+        <a href="/#categories">女子战队</a>
+        <a href="/#guide">观赛入门</a>
+        <a href="/#featured">灵敏度参数</a>
+        <a href="/#deep">独联体赛区</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 中栏主内容 -->
+  <main class="col-main">
+
+    <!-- 1 领域概览 -->
+    <section class="section" id="overview">
+      <div class="section-head">
+        <h2>俄服女子 CS2 生态概览</h2>
+        <span class="hint">2026-11-25 更新</span>
+      </div>
+      <div class="overview-grid">
+        <div class="overview-text">
+          <p>
+            俄罗斯女csgo大姐姐这个说法，在社区里通常指代一类具体的玩家群体：来自俄语区、以 CS2 天梯高分和直播为主要曝光方式的女选手。
+            她们大多在 FACEIT 10 级或 Premier 20 分以上区间活动，主玩 Mirage、Inferno、Ancient 三张图，直播内容以单排上分、
+            五人车队语音实录和赛后 POV 复盘为主。和早期只做娱乐向直播的路线不同，这一批选手更强调<b>可复现的技术细节</b>——
+            灵敏度、准星代码、投掷物点位、经济节奏，都会被拆开讲清楚。
+          </p>
+          <p>
+            当前值得关注的方向大致有四条。第一是<b>狙击手路线</b>，Anastasia_K、Katya_AK 这类以 AWP 为核心武器的选手，会在直播里
+            反复演示 Mirage 中路、Inferno 香蕉道的架枪时机；第二是<b>指挥位内容</b>，SPARKS 战队的 Irena_V 常做半场战术复盘，
+            讲的是如何用道具节奏换取回防时间；第三是<b>外设与参数档案</b>，鼠标 DPI、eDPI、显示器刷新率这些数据被整理成可比对的条目；
+            第四是<b>赛事线</b>，FACEIT 女子冬季赛、独联体线上邀请赛和社区自办的 5v5 周赛构成了完整的观看日历。
+          </p>
+          <p>
+            对刚接触这类内容的观众来说，最容易踩的坑是把「直播片段好看」直接等同于「值得长期追」。真正稳定的观看价值在于：
+            选手是否有固定的更新节奏、是否愿意解释决策过程、是否有可查的赛事成绩。下面几个板块分别从档案、动态、分类、深度解析
+            和观看路径的角度展开，可以按自己的兴趣点跳读。
+          </p>
+        </div>
+        <div class="overview-facts">
+          <div class="fact"><b>28 位</b><span>在档选手</span></div>
+          <div class="fact"><b>11 支</b><span>女子战队</span></div>
+          <div class="fact"><b>14 场</b><span>近 30 天赛事</span></div>
+          <div class="fact"><b>41 条</b><span>地图点位</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 精选档案 -->
+    <section class="section" id="featured">
+      <div class="section-head">
+        <h2>精选选手与内容档案</h2>
+        <span class="hint">按热度排序 · 6 条精选</span>
+      </div>
+      <p class="section-intro">
+        以下条目覆盖狙击手、指挥位、步枪手三类角色，每条都标注了主玩地图、更新节奏与当前可查战绩，方便判断是否值得长期跟进。
+      </p>
+      <div class="card-grid" id="featuredGrid">
+
+        <article class="card" data-key="anastasia_k 狙击手 awp mirage 天梯">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/ru-cs2-anastasia01/400/300" width="400" height="300" loading="lazy" alt="Anastasia_K 直播 Mirage 中路 AWP 架枪画面">
+            <span class="badge">狙击手</span>
+          </div>
+          <div class="card-body">
+            <h3>Anastasia_K · Mirage 中路 AWP 架点</h3>
+            <p class="desc">莫斯科选手，FACEIT 10 级 3120 分。直播固定演示中路窗户与短箱两个架枪位，附完整灵敏度与开镜延迟参数，适合想练 AWP 第一枪的观众。</p>
+            <div class="tags"><span>Mirage</span><span>AWP</span><span>灵敏度</span></div>
+            <div class="card-meta"><span>每周一、三、五 21:00</span><span class="hot">热度 9.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="katya_ak 步枪手 ak47 inferno 香蕉道">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/ru-cs2-katya02/400/300" width="400" height="300" loading="lazy" alt="Katya_AK 在 Inferno 香蕉道使用 AK-47 压枪演示">
+            <span class="badge">步枪手</span>
+          </div>
+          <div class="card-body">
+            <h3>Katya_AK · Inferno 香蕉道 AK 压枪</h3>
+            <p class="desc">喀山选手，Premier 24 分。擅长用短点射控制香蕉道狭窄空间，教学视频逐帧拆解前 6 发弹道，是俄服女选手里少见的纯步枪教学向。</p>
+            <div class="tags"><span>Inferno</span><span>AK-47</span><span>压枪</span></div>
+            <div class="card-meta"><span>每周二、四 20:30</span><span class="hot">热度 9.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="irena_v 指挥位 sparks 战术复盘">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/ru-cs2-irena03/400/300" width="400" height="300" loading="lazy" alt="Irena_V 在 SPARKS 战队半场战术复盘直播画面">
+            <span class="badge">指挥位</span>
+          </div>
+          <div class="card-body">
+            <h3>Irena_V · SPARKS 半场战术复盘</h3>
+            <p class="desc">SPARKS 女队队长，主打 Ancient 与 Anubis 的道具节奏。复盘时会把每个回合的经济、道具消耗和回防时间标在时间轴上，适合想理解团队决策的观众。</p>
+            <div class="tags"><span>Ancient</span><span>指挥</span><span>战术复盘</span></div>
+            <div class="card-meta"><span>每周日 19:00</span><span class="hot">热度 8.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="lena_smg 突破手 近战 smg 独联体">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/ru-cs2-lena04/400/300" width="400" height="300" loading="lazy" alt="Lena_SMG 使用 MP9 在 Ancient 通道突破的第一视角">
+            <span class="badge">突破手</span>
+          </div>
+          <div class="card-body">
+            <h3>Lena_SMG · Ancient 通道 MP9 突破</h3>
+            <p class="desc">叶卡捷琳堡选手，以手枪局和强起局的近战突破见长。直播里常见她用 MP9 打通道贴脸，讲的是如何用脚步和预瞄换取第一枪优势。</p>
+            <div class="tags"><span>Ancient</span><span>MP9</span><span>突破</span></div>
+            <div class="card-meta"><span>每周三、六 22:00</span><span class="hot">热度 8.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="vera_setup 外设 参数 灵敏度 显示器">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/ru-cs2-vera05/400/300" width="400" height="300" loading="lazy" alt="Vera_Setup 的鼠标、键盘与显示器外设参数对照桌面">
+            <span class="badge">外设档案</span>
+          </div>
+          <div class="card-body">
+            <h3>Vera_Setup · 俄服女选手外设参数表</h3>
+            <p class="desc">整理了 28 位俄服女选手的鼠标 DPI、eDPI、游戏内灵敏度、准星代码与显示器刷新率，支持按武器类型和角色位置筛选，是比对自身设置的实用参考。</p>
+            <div class="tags"><span>eDPI</span><span>准星代码</span><span>刷新率</span></div>
+            <div class="card-meta"><span>11-23 更新 · 96 条</span><span class="hot">热度 8.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="sparks 女子战队 faceit 赛事">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/ru-cs2-sparks06/400/300" width="400" height="300" loading="lazy" alt="SPARKS 女子战队在 FACEIT 冬季赛的赛前合影">
+            <span class="badge">女子战队</span>
+          </div>
+          <div class="card-body">
+            <h3>SPARKS · FACEIT 冬季赛首发阵容</h3>
+            <p class="desc">目前独联体区排名最高的女子战队之一，11-24 公布五人首发。队伍习惯在 Anubis 打双狙体系，近 30 天线上赛战绩 7 胜 3 负。</p>
+            <div class="tags"><span>FACEIT</span><span>Anubis</span><span>双狙</span></div>
+            <div class="card-meta"><span>下一场 11-27 22:00</span><span class="hot">热度 9.3</span></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 3 最新动态 -->
+    <section class="section" id="updates">
+      <div class="section-head">
+        <h2>最新直播与赛事动态</h2>
+        <span class="hint">近 3 天 · 10 条</span>
+      </div>
+      <ul class="live-list">
+        <li class="live-item">
+          <span class="time">今天 09:30</span>
+          <div><h4>Anastasia_K 上传 38 杀 POV</h4><p>Mirage 单排天梯完整录像，附击杀时间轴与开镜延迟标注。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">今天 08:15</span>
+          <div><h4>Katya_AK 狙击教学第 4 期上线</h4><p>本期讲 Inferno 香蕉道的二次架枪与假开镜骗枪，时长 22 分钟。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">昨天 23:40</span>
+          <div><h4>SPARKS 公布冬季赛首发</h4><p>Irena_V 继续担任指挥，双狙位由 Anastasia_K 与 Mira_L 搭档。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">昨天 21:10</span>
+          <div><h4>Lena_SMG 强起局教学直播</h4><p>连续 5 局手枪局与强起局演示，重点讲 MP9 贴脸走位。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">昨天 19:00</span>
+          <div><h4>Irena_V 半场复盘：Ancient 防守</h4><p>拆解 12 个回合的道具消耗与回防时间，附完整时间轴。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">11-23 22:30</span>
+          <div><h4>Vera_Setup 外设参数表更新</h4><p>新增 6 位选手的 eDPI 与准星代码，累计 96 条可筛选记录。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">11-23 20:05</span>
+          <div><h4>独联体线上邀请赛分组出炉</h4><p>8 支女子战队分两组，小组赛 11-28 开打，全程直播。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">11-22 21:50</span>
+          <div><h4>Anastasia_K 与 Katya_AK 连麦</h4><p>双人讨论 AWP 与 AK 的第一枪取舍，时长 48 分钟。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">11-22 18:20</span>
+          <div><h4>社区周赛 5v5 开放报名</h4><p>面向天梯 8 级以上女玩家，11-29 开赛，共 16 队名额。</p></div>
+        </li>
+        <li class="live-item">
+          <span class="time">11-21 23:15</span>
+          <div><h4>Mira_L 转会至 SPARKS 青训</h4><p>原队伍解散后加入青训名单，主玩 Anubis 与 Nuke。</p></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 4 分类入口 + 筛选 -->
+    <section class="section" id="categories">
+      <div class="section-head">
+        <h2>分类入口</h2>
+        <span class="hint">按角色 / 内容类型筛选</span>
+      </div>
+      <div class="filter-bar" role="group" aria-label="按内容类型筛选精选档案">
+        <button type="button" class="on" data-filter="all">全部</button>
+        <button type="button" data-filter="狙击手">狙击手</button>
+        <button type="button" data-filter="步枪手">步枪手</button>
+        <button type="button" data-filter="指挥位">指挥位</button>
+        <button type="button" data-filter="突破手">突破手</button>
+        <button type="button" data-filter="外设档案">外设档案</button>
+        <button type="button" data-filter="女子战队">女子战队</button>
+      </div>
+      <p class="filter-result" id="filterResult" aria-live="polite">当前显示 6 条精选档案</p>
+      <div class="cat-grid">
+        <a class="cat" href="/#featured"><b>狙击手</b><span>AWP 架点、开镜延迟、二次架枪</span><span class="cnt">9 位在档</span></a>
+        <a class="cat" href="/#featured"><b>步枪手</b><span>AK-47 压枪、短点射、预瞄训练</span><span class="cnt">12 位在档</span></a>
+        <a class="cat" href="/#featured"><b>指挥位</b><span>半场复盘、道具节奏、经济管理</span><span class="cnt">7 位在档</span></a>
+        <a class="cat" href="/#featured"><b>突破手</b><span>MP9 贴脸、手枪局、强起局</span><span class="cnt">8 位在档</span></a>
+        <a class="cat" href="/#featured"><b>女子战队</b><span>SPARKS、NOVA.RU、喀山联队</span><span class="cnt">11 支</span></a>
+        <a class="cat" href="/#featured"><b>外设参数</b><span>eDPI、准星代码、显示器刷新率</span><span class="cnt">96 条</span></a>
+        <a class="cat" href="/#deep"><b>地图点位</b><span>Mirage 中路、Inferno 香蕉道、Ancient 通道</span><span class="cnt">41 条</span></a>
+        <a class="cat" href="/#updates"><b>赛事日历</b><span>FACEIT 女子赛、独联体邀请赛、社区周赛</span><span class="cnt">14 场</span></a>
+      </div>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="section" id="deep">
+      <div class="section-head">
+        <h2>深度解析：俄服女选手的内容特点与观看判断</h2>
+        <span class="hint">约 800 字</span>
+      </div>
+      <div class="article-body">
+        <h3>狙击手路线与步枪手路线，差的不只是武器</h3>
+        <p>
+          在俄服女子 CS2 的直播生态里，狙击手和步枪手的内容结构几乎完全不同。狙击手如 Anastasia_K，直播重心放在
+          <strong>架点选择与开镜时机</strong>：她会把 Mirage 中路窗户、短箱、跳台三个位置的「先手架 / 后手补」分开讲，
+          并给出每种情况下的准星高度与鼠标移动距离。这类内容适合反复回看，因为一个架位的差异往往只在半秒内。
+        </p>
+        <p>
+          步枪手如 Katya_AK 的内容更偏向<strong>弹道控制与空间压缩</strong>。Inferno 香蕉道是个典型场景：空间窄、交火距离短、
+          投掷物影响大，她的教学会逐帧拆前 6 发弹道，并说明什么时机该停枪等队友补位。两类路线的观看节奏因此不同——
+          狙击手内容适合慢速拆解，步枪手内容适合边看边在练习图复现。
+        </p>
+
+        <h3>指挥位内容为什么更难看懂，但价值更高</h3>
+        <p>
+          Irena_V 的半场复盘是俄服女选手里少见的<strong>结构化战术内容</strong>。她通常按回合顺序推进，每个回合标注三件事：
+          起始经济、道具消耗、回防剩余时间。观众如果只看击杀集锦，很容易忽略这些决策；但真正决定比赛走向的往往就是
+          「这个回合该不该强起」「烟雾该留到第几秒」。
+        </p>
+        <ul>
+          <li><strong>经济判断</strong>：连败奖励与强起时机的取舍，决定下半场能否保持完整枪械。</li>
+          <li><strong>道具预算</strong>：一套完整执行通常消耗 4—6 颗道具，剩余道具决定残局处理方式。</li>
+          <li><strong>回防时间</strong>：从 A 点到 B 点的实际移动秒数，直接决定是否值得拆包或保枪。</li>
+        </ul>
+
+        <h3>四类内容形态的对照</h3>
+        <table class="compare-table">
+          <thead>
+            <tr><th>内容形态</th><th>典型条目</th><th>更新节奏</th><th>适合谁</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>单排上分直播</td><td>Anastasia_K 天梯实录</td><td>每周 3 次</td><td>想看真实对局与临场决策</td></tr>
+            <tr><td>技术教学</td><td>Katya_AK 狙击教学</td><td>每周 1 期</td><td>想复现具体点位与弹道</td></tr>
+            <tr><td>战术复盘</td><td>Irena_V 半场拆解</td><td>每周日</td><td>想理解团队层面的取舍</td></tr>
+            <tr><td>参数档案</td><td>Vera_Setup 外设表</td><td>不定期补录</td><td>想比对自身设置是否合理</td></tr>
+          </tbody>
+        </table>
+
+        <h3>赛事线怎么看：从社区周赛到 FACEIT 女子赛</h3>
+        <p>
+          俄服女子 CS2 的赛事层级大致分三层。最底层是社区自办的 5v5 周赛，报名门槛通常是天梯 8 级以上，赛制短、节奏快，
+          适合观察新人；中间层是独联体线上邀请赛，8 支战队分组，能看到成型队伍的配合；最上层是 FACEIT 女子冬季赛，
+          强度最高，也是判断一位选手是否具备稳定竞技水平的主要依据。
+        </p>
+        <p>
+          观看时有个实用判断：<strong>先看选手在邀请赛里的表现，再回看她的直播</strong>。赛事录像能反映抗压能力与团队协作，
+          直播则能补充决策细节。反过来只看直播容易高估单排能力，只看赛事又容易错过技术细节。两者结合，才更接近这位选手的
+          真实水平。
+        </p>
+
+        <h3>为什么这批选手的更新节奏值得关注</h3>
+        <p>
+          和很多只做片段剪辑的账号不同，俄服女选手普遍保持较稳定的更新节奏：Anastasia_K 固定在周一、三、五晚间开播，
+          Katya_AK 每周二、四更新教学，Irena_V 每周日做复盘。这种节奏意味着观众可以形成预期，也意味着内容不是一次性消费。
+          对长期关注女子电竞的人来说，稳定更新比单条爆款更有参考价值。
+        </p>
+      </div>
+    </section>
+
+    <!-- 6 观看指南 -->
+    <section class="section" id="guide">
+      <div class="section-head">
+        <h2>观看路径与判断依据</h2>
+        <span class="hint">从入门到长期跟进</span>
+      </div>
+      <p class="section-intro">
+        如果你第一次接触俄服女子 CS2 内容，建议按下面的顺序推进，而不是随机点开直播。每一步都给出了具体的判断依据。
+      </p>
+      <div class="steps">
+        <div class="step">
+          <div>
+            <h4>先确定自己想看「技术」还是「对局」</h4>
+            <p>想学具体点位，从 Katya_AK 的教学系列或 Vera_Setup 的参数表入手；想看真实对局与临场决策，从 Anastasia_K 的单排实录开始。两类内容的观看方式不同，混着看容易失去重点。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>用一个条目判断更新是否稳定</h4>
+            <p>翻看最近 4 周的更新记录：是否有固定开播日、是否有连续的教学期数、赛事期间是否仍保持更新。稳定更新通常意味着选手处于活跃竞技状态，内容质量也更可预期。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>用赛事成绩交叉验证直播表现</h4>
+            <p>单排天梯分数高不等于比赛强。查一下这位选手在独联体邀请赛或 FACEIT 女子赛的近 30 天战绩，重点看她的 KD、首杀率和残局胜率，而不是只看胜负。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>同类条目比较时看三个维度</h4>
+            <p>一是主玩地图是否与你想练的图一致；二是角色位置是否匹配（狙击手 / 步枪手 / 指挥位）；三是内容是否给出可复现参数，比如灵敏度、准星代码、投掷物站位。三项都对上，才值得长期投入时间。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>加入社区讨论再做筛选</h4>
+            <p>社区周赛和讨论帖会暴露很多直播里看不到的信息，比如某位选手最近的训练重点、某支战队的阵容变动。先看讨论再决定追谁，比单看热度榜更可靠。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 FAQ -->
+    <section class="section" id="faq">
+      <div class="section-head">
+        <h2>常见问答</h2>
+        <span class="hint">6 个高频问题</span>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>俄服女选手的直播一般多久更新一次？</summary>
+          <div class="ans">
+            多数在档选手保持每周 2—3 次直播。Anastasia_K 固定在周一、三、五 21:00，Katya_AK 是周二、四 20:30，
+            Irena_V 每周日 19:00 做复盘。赛事周可能临时调整，建议以档案页标注的开播日为准。
+          </div>
+        </details>
+        <details>
+          <summary>第一次接触，从哪个条目开始看比较好？</summary>
+          <div class="ans">
+            如果目的是学技术，从 <b>Katya_AK 的 Inferno 香蕉道 AK 教学</b>开始，节奏清晰、可复现；如果只是想看高水平对局，
+            从 <b>Anastasia_K 的 Mirage 38 杀 POV</b>入手，能同时看到架点选择和残局处理。
+          </div>
+        </details>
+        <details>
+          <summary>AWP 架点和 AK 压枪，练习顺序应该怎么排？</summary>
+          <div class="ans">
+            建议先练 <b>AK 压枪</b>，因为步枪是绝大多数回合的基础武器，弹道稳定后对枪胜率提升更明显；AWP 架点更依赖地图理解和
+            队友信息，适合在熟悉 Mirage、Inferno 的常规站位之后再深入。
+          </div>
+        </details>
+        <details>
+          <summary>FACEIT 女子赛和独联体线上邀请赛有什么区别？</summary>
+          <div class="ans">
+            FACEIT 女子赛是国际性赛事，参赛队伍覆盖多个赛区，强度更高；独联体线上邀请赛以俄语区队伍为主，赛制更短，
+            常有青训队参加。前者适合判断选手的稳定竞技水平，后者更适合观察新人和阵容变化。
+          </div>
+        </details>
+        <details>
+          <summary>外设参数里的 eDPI 应该怎么参考？</summary>
+          <div class="ans">
+            eDPI = 鼠标 DPI × 游戏内灵敏度，反映的是实际转向速度。俄服女选手的 eDPI 多集中在 <b>600—900</b> 区间，
+            狙击手偏低、突破手偏高。参考时优先看同角色、同分辨率的选手，不要直接照搬数值。
+          </div>
+        </details>
+        <details>
+          <summary>俄服女选手的评判标准通常看哪些数据？</summary>
+          <div class="ans">
+            常用的有四项：<b>首杀率</b>看开局主动性，<b>残局胜率</b>看抗压能力，<b>道具伤害</b>看团队贡献，
+            <b>ADR</b> 看整体输出。单看 KD 容易误判，尤其是指挥位选手，数据往往不如突破手亮眼但价值更高。
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 8 用户评论 -->
+    <section class="section" id="comments">
+      <div class="section-head">
+        <h2>社区评论</h2>
+        <span class="hint">16 条 · 近 7 天</span>
+      </div>
+      <div class="comment-grid">
+        <div class="comment"><div class="avatar" style="background:#ff5c39">莫</div><div class="c-body"><div class="c-top"><span class="c-name">莫斯科的雪</span><span class="c-time">今天 09:42</span></div><p class="c-text">Anastasia_K 那场 38 杀的 POV 真的值得逐帧看，中路窗户那个架枪位我之前一直站太高了。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#3fd0d4">阿</div><div class="c-body"><div class="c-top"><span class="c-name">阿克苏的猫</span><span class="c-time">今天 08:55</span></div><p class="c-text">Katya_AK 的香蕉道教学讲得比很多男主播细，前 6 发弹道拆得很清楚，练了两天有感觉。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#ffb03a">夜</div><div class="c-body"><div class="c-top"><span class="c-name">夜航船票</span><span class="c-time">昨天 23:18</span></div><p class="c-text">SPARKS 双狙体系在 Anubis 打得挺稳，但进攻方道具衔接还是有点慢，看邀请赛能不能改。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#8b7cf6">三</div><div class="c-body"><div class="c-top"><span class="c-name">三号狙击位</span><span class="c-time">昨天 22:40</span></div><p class="c-text">外设参数表很实用，对比了一下发现我的 eDPI 比这些选手高不少，调低之后甩枪稳了一点。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#f0616d">老</div><div class="c-body"><div class="c-top"><span class="c-name">老式键盘侠</span><span class="c-time">昨天 21:05</span></div><p class="c-text">Irena_V 的复盘有点门槛，第一次看差点没跟上，第二遍才明白她在讲经济节奏。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#4ade80">喀</div><div class="c-body"><div class="c-top"><span class="c-name">喀山小卖部</span><span class="c-time">昨天 19:33</span></div><p class="c-text">Lena_SMG 强起局打得凶，但有时候太激进了，队友跟不上节奏就容易被翻。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#38bdf8">半</div><div class="c-body"><div class="c-top"><span class="c-name">半自动步枪</span><span class="c-time">11-24 23:50</span></div><p class="c-text">想问问有没有专门讲 Ancient 通道烟位的选手，现在只找到 Irena_V 的一场旧录像。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#fb923c">冬</div><div class="c-body"><div class="c-top"><span class="c-name">冬宫门前</span><span class="c-time">11-24 21:12</span></div><p class="c-text">Mira_L 转会去 SPARKS 青训了，希望能多打点线下，Anubis 上她打得挺有想法。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#a78bfa">准</div><div class="c-body"><div class="c-top"><span class="c-name">准星调不好</span><span class="c-time">11-24 18:47</span></div><p class="c-text">准星代码那个合集救了我，照着 Anastasia_K 的参数改完，远距离点射舒服多了。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#22d3ee">独</div><div class="c-body"><div class="c-top"><span class="c-name">独联体老观众</span><span class="c-time">11-23 22:30</span></div><p class="c-text">社区周赛水平参差，但能看到新人，比只看大赛有意思。11-29 那场我准备报名。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#f472b6">安</div><div class="c-body"><div class="c-top"><span class="c-name">安静看比赛</span><span class="c-time">11-23 20:15</span></div><p class="c-text">感觉这批选手的风格比两年前成熟多了，以前多是娱乐局，现在真有战术内容。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#facc15">大</div><div class="c-body"><div class="c-top"><span class="c-name">大列巴配咖啡</span><span class="c-time">11-23 16:40</span></div><p class="c-text">Katya_AK 最近更新的频率挺稳的，就是希望多讲讲防守方的架点，进攻方内容有点多。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#34d399">图</div><div class="c-body"><div class="c-top"><span class="c-name">图个乐子</span><span class="c-time">11-22 23:22</span></div><p class="c-text">Anastasia_K 和 Katya_AK 连麦那期挺有意思，两个人对第一枪的看法完全不一样。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#60a5fa">下</div><div class="c-body"><div class="c-top"><span class="c-name">下半场强起</span><span class="c-time">11-22 20:08</span></div><p class="c-text">参数表如果能加上鼠标型号就更好了，光看 eDPI 还是不太够，握感和重量也有影响。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#f87171">莫</div><div class="c-body"><div class="c-top"><span class="c-name">莫斯科地铁</span><span class="c-time">11-21 22:45</span></div><p class="c-text">Irena_V 的复盘适合配着录像看，单纯听容易走神，画面和时间轴对上了才好理解。</p></div></div>
+        <div class="comment"><div class="avatar" style="background:#818cf8">小</div><div class="c-body"><div class="c-top"><span class="c-name">小镇步枪手</span><span class="c-time">11-21 19:30</span></div><p class="c-text">整体内容不错，就是有些教学视频时长偏长，能剪个 5 分钟要点版就更方便复习了。</p></div></div>
+      </div>
+    </section>
+
+    <!-- 9 相关资讯 -->
+    <section class="section" id="news">
+      <div class="section-head">
+        <h2>相关资讯</h2>
+        <span class="hint">6 条 · 近 30 天</span>
+      </div>
+      <div class="news-list">
+        <a class="news-item" href="/#updates">
+          <img src="https://picsum.photos/seed/ru-cs2-news01/600/400" width="600" height="400" loading="lazy" alt="SPARKS 战队 FACEIT 冬季赛首发名单公布现场">
+          <div>
+            <h4>SPARKS 公布 FACEIT 冬季赛五人首发，双狙体系延续</h4>
+            <p>Irena_V 继续担任指挥，Anastasia_K 与 Mira_L 搭档双狙位，小组赛首战 11-27 22:00。</p>
+            <span class="n-date">2026-11-24</span>
+          </div>
+        </a>
+        <a class="news-item" href="/#updates">
+          <img src="https://picsum.photos/seed/ru-cs2-news02/600/400" width="600" height="400" loading="lazy" alt="独联体线上邀请赛分组抽签结果公布">
+          <div>
+            <h4>独联体线上邀请赛分组出炉，8 支女子战队分两组</h4>
+            <p>小组赛 11-28 开打，NOVA.RU 与喀山联队同组，赛制为 BO1 加淘汰赛 BO3。</p>
+            <span class="n-date">2026-11-23</span>
+          </div>
+        </a>
+        <a class="news-item" href="/#featured">
+          <img src="https://picsum.photos/seed/ru-cs2-news03/600/400" width="600" height="400" loading="lazy" alt="Vera_Setup 更新的外设参数表截图">
+          <div>
+            <h4>Vera_Setup 外设参数表新增 6 位选手，累计 96 条</h4>
+            <p>新增条目覆盖 eDPI、准星代码与显示器刷新率，支持按角色位置筛选。</p>
+            <span class="n-date">2026-11-23</span>
+          </div>
+        </a>
+        <a class="news-item" href="/#updates">
+          <img src="https://picsum.photos/seed/ru-cs2-news04/600/400" width="600" height="400" loading="lazy" alt="社区 5v5 周赛报名页面与赛程安排">
+          <div>
+            <h4>社区 5v5 周赛开放报名，面向天梯 8 级以上女玩家</h4>
+            <p>11-29 开赛，共 16 队名额，赛制为小组循环加单败淘汰。</p>
+            <span class="n-date">2026-11-22</span>
+          </div>
+        </a>
+        <a class="news-item" href="/#featured">
+          <img src="https://picsum.photos/seed/ru-cs2-news05/600/400" width="600" height="400" loading="lazy" alt="Mira_L 加入 SPARKS 青训的公告图">
+          <div>
+            <h4>Mira_L 加入 SPARKS 青训，主玩 Anubis 与 Nuke</h4>
+            <p>原队伍解散后转入青训名单，预计在 12 月的线上邀请赛中获得出场机会。</p>
+            <span class="n-date">2026-11-21</span>
+          </div>
+        </a>
+        <a class="news-item" href="/#deep">
+          <img src="https://picsum.photos/seed/ru-cs2-news06/600/400" width="600" height="400" loading="lazy" alt="俄服女子 CS2 直播内容类型变化的数据图示">
+          <div>
+            <h4>俄服女子 CS2 直播内容转向战术复盘，教学类占比上升</h4>
+            <p>近 30 天新增内容中，战术复盘与点位教学占比明显提升，纯娱乐局直播减少。</p>
+            <span class="n-date">2026-11-19</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 10 相关推荐 -->
+    <section class="section" id="related">
+      <div class="section-head">
+        <h2>相关推荐</h2>
+        <span class="hint">延伸方向 · 8 条</span>
+      </div>
+      <div class="rec-tags">
+        <a href="/#featured">Mirage 中路架枪点位 <small>41 条</small></a>
+        <a href="/#featured">Inferno 香蕉道投掷物 <small>28 条</small></a>
+        <a href="/#featured">Ancient 通道烟位 <small>19 条</small></a>
+        <a href="/#featured">AWP 开镜延迟训练 <small>12 条</small></a>
+        <a href="/#featured">AK-47 短点射节奏 <small>16 条</small></a>
+        <a href="/#categories">女子战队阵容变动 <small>11 支</small></a>
+        <a href="/#guide">新手观赛入门路径 <small>5 步</small></a>
+        <a href="/#deep">独联体赛区层级说明 <small>3 层</small></a>
+      </div>
+    </section>
+
+    <!-- 11 补充板块：时间线 -->
+    <section class="section" id="timeline">
+      <div class="section-head">
+        <h2>近 30 天条目时间线</h2>
+        <span class="hint">按日期倒序</span>
+      </div>
+      <ul class="timeline">
+        <li>
+          <span class="tl-date">2026-11-25</span>
+          <div class="tl-title">Anastasia_K 38 杀 POV 上传</div>
+          <div class="tl-desc">Mirage 单排天梯完整录像，附击杀时间轴与开镜延迟标注。</div>
+        </li>
+        <li>
+          <span class="tl-date">2026-11-24</span>
+          <div class="tl-title">SPARKS 公布冬季赛首发</div>
+          <div class="tl-desc">Irena_V 任指挥，双狙位由 Anastasia_K 与 Mira_L 搭档。</div>
+        </li>
+        <li>
+          <span class="tl-date">2026-11-23</span>
+          <div class="tl-title">外设参数表更新至 96 条</div>
+          <div class="tl-desc">新增 6 位选手的 eDPI、准星代码与显示器刷新率。</div>
+        </li>
+        <li>
+          <span class="tl-date">2026-11-22</span>
+          <div class="tl-title">社区 5v5 周赛开放报名</div>
+          <div class="tl-desc">面向天梯 8 级以上女玩家，11-29 开赛，16 队名额。</div>
+        </li>
+        <li>
+          <span class="tl-date">2026-11-19</span>
+          <div class="tl-title">教学类内容占比上升</div>
+          <div class="tl-desc">近 30 天新增内容中，战术复盘与点位教学明显增加。</div>
+        </li>
+        <li>
+          <span class="tl-date">2026-11-14</span>
+          <div class="tl-title">Katya_AK 狙击教学第 3 期</div>
+          <div class="tl-desc">讲解 Mirage 中路二次架枪与假开镜骗枪的时机。</div>
+        </li>
+        <li>
+          <span class="tl-date">2026-11-08</span>
+          <div class="tl-title">独联体邀请赛预选结束</div>
+          <div class="tl-desc">8 支女子战队晋级正赛，NOVA.RU 以小组第一出线。</div>
+        </li>
+        <li>
+          <span class="tl-date">2026-10-30</span>
+          <div class="tl-title">Irena_V 开启半场复盘系列</div>
+          <div class="tl-desc">首期拆解 Ancient 防守方 12 个回合的道具与回防时间。</div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- 右栏 -->
+  <aside class="side-right" aria-label="热榜与更新流">
+    <div class="side-card">
+      <div class="side-title">本周热度榜</div>
+      <ol class="rank-list">
+        <li><span class="rank-no">1</span><div><span class="r-name">Anastasia_K</span><span class="r-meta">狙击手 · 热度 9.6</span></div></li>
+        <li><span class="rank-no">2</span><div><span class="r-name">SPARKS 女队</span><span class="r-meta">战队 · 热度 9.3</span></div></li>
+        <li><span class="rank-no">3</span><div><span class="r-name">Katya_AK</span><span class="r-meta">步枪手 · 热度 9.1</span></div></li>
+        <li><span class="rank-no">4</span><div><span class="r-name">Vera_Setup</span><span class="r-meta">外设档案 · 热度 8.9</span></div></li>
+        <li><span class="rank-no">5</span><div><span class="r-name">Irena_V</span><span class="r-meta">指挥位 · 热度 8.8</span></div></li>
+        <li><span class="rank-no">6</span><div><span class="r-name">Lena_SMG</span><span class="r-meta">突破手 · 热度 8.4</span></div></li>
+        <li><span class="rank-no">7</span><div><span class="r-name">Mira_L</span><span class="r-meta">青训 · 热度 8.1</span></div></li>
+        <li><span class="rank-no">8</span><div><span class="r-name">NOVA.RU</span><span class="r-meta">战队 · 热度 7.9</span></div></li>
+      </ol>
+    </div>
+    <div class="side-card">
+      <div class="side-title">实时更新流</div>
+      <ul class="update-flow">
+        <li><b>Anastasia_K 开播</b><span class="t">今天 21:00 · Mirage 天梯</span></li>
+        <li><b>Katya_AK 教学第 4 期</b><span class="t">今天 08:15 · 香蕉道架枪</span></li>
+        <li><b>SPARKS 首发公布</b><span class="t">昨天 23:40 · 双狙体系</span></li>
+        <li><b>外设表更新</b><span class="t">11-23 22:30 · 新增 6 位</span></li>
+        <li><b>邀请赛分组出炉</b><span class="t">11-23 20:05 · 8 队两组</span></li>
+        <li><b>社区周赛报名</b><span class="t">11-22 18:20 · 16 队名额</span></li>
+      </ul>
+    </div>
+    <div class="side-card">
+      <div class="side-title">快速入口</div>
+      <div style="padding:12px 14px 15px;display:flex;flex-direction:column;gap:8px">
+        <a href="/#guide" style="font-size:13px;color:var(--text-2)">→ 新手观看路径</a>
+        <a href="/#deep" style="font-size:13px;color:var(--text-2)">→ 内容形态对照表</a>
+        <a href="/#faq" style="font-size:13px;color:var(--text-2)">→ 高频问题解答</a>
+        <a href="/#timeline" style="font-size:13px;color:var(--text-2)">→ 近 30 天时间线</a>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<!-- 页尾 -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M20 3 35 10v11c0 8-6.2 14.4-15 16C11.2 35.4 5 29 5 21V10L20 3Z" fill="#ff5c39" opacity=".14" stroke="#ff5c39" stroke-width="1.6"/>
+          <path d="M13 15h5.4l1.6 4.2 1.6-4.2H27l-4.3 10h-2.9L17.6 20l-1.2 3.2h4.1l1.3 3.2h-7.4L13 15Z" fill="#ffb03a"/>
+          <circle cx="28.5" cy="13.5" r="2.4" fill="#3fd0d4"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">俄罗斯女csgo大姐姐</span>
+          <span class="brand-sub">RU CS2 SISTERS</span>
+        </span>
+      </div>
+      <p>聚焦俄语区女子 CS2 选手的直播、赛事与参数档案，记录天梯高分女玩家的技术与社区动态。</p>
+    </div>
+    <div class="footer-col">
+      <h4>选手与战队</h4>
+      <a href="/#featured">Anastasia_K 档案</a>
+      <a href="/#featured">Katya_AK 教学</a>
+      <a href="/#featured">Irena_V 复盘</a>
+      <a href="/#featured">SPARKS 女子战队</a>
+    </div>
+    <div class="footer-col">
+      <h4>内容分类</h4>
+      <a href="/#categories">狙击手</a>
+      <a href="/#categories">步枪手</a>
+      <a href="/#categories">指挥位</a>
+      <a href="/#categories">外设参数</a>
+    </div>
+    <div class="footer-col">
+      <h4>社区与帮助</h4>
+      <a href="/#guide">观看路径</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#news">相关资讯</a>
+      <a href="/#timeline">更新时间线</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>内容为社区整理与条目示例，选手数据、赛事时间以官方直播与赛事页面公布为准。</span>
+    <span>© 2026 俄罗斯女csgo大姐姐 · RU CS2 SISTERS 社区档案</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端导航 */
+  var navToggle = document.getElementById('navToggle');
+  var mainNav = document.getElementById('mainNav');
+  if(navToggle && mainNav){
+    navToggle.addEventListener('click', function(){
+      var open = mainNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navToggle.setAttribute('aria-label', open ? '收起导航菜单' : '展开导航菜单');
+    });
+    mainNav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && mainNav.classList.contains('open')){
+        mainNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded','false');
+        navToggle.setAttribute('aria-label','展开导航菜单');
+      }
+    });
+  }
+
+  /* 分类筛选 */
+  var filterBtns = document.querySelectorAll('.filter-bar button');
+  var cards = document.querySelectorAll('#featuredGrid .card');
+  var resultEl = document.getElementById('filterResult');
+
+  function applyFilter(key){
+    var shown = 0;
+    cards.forEach(function(card){
+      var badge = card.querySelector('.badge');
+      var label = badge ? badge.textContent.trim() : '';
+      var match = (key === 'all') || (label === key);
+      card.style.display = match ? '' : 'none';
+      if(match) shown++;
+    });
+    if(resultEl){
+      if(shown === 0){
+        resultEl.innerHTML = '当前筛选没有匹配条目，<span class="none">请选择其他分类或查看全部</span>';
+      }else{
+        resultEl.textContent = '当前显示 ' + shown + ' 条精选档案';
+      }
+    }
+  }
+
+  filterBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      filterBtns.forEach(function(b){ b.classList.remove('on'); });
+      btn.classList.add('on');
+      applyFilter(btn.getAttribute('data-filter'));
+    });
+  });
+
+  /* 站内搜索：对精选卡片与动态条目做本地筛选 */
+  var searchInput = document.getElementById('globalSearch');
+  var liveItems = document.querySelectorAll('.live-item');
+  var newsItems = document.querySelectorAll('.news-item');
+
+  function runSearch(){
+    var q = (searchInput.value || '').trim().toLowerCase();
+    var visible = 0;
+
+    cards.forEach(function(card){
+      var text = (card.textContent + ' ' + (card.getAttribute('data-key')||'')).toLowerCase();
+      var ok = !q || text.indexOf(q) > -1;
+      card.style.display = ok ? '' : 'none';
+      if(ok) visible++;
+    });
+
+    liveItems.forEach(function(item){
+      var ok = !q || item.textContent.toLowerCase().indexOf(q) > -1;
+      item.style.display = ok ? '' : 'none';
+    });
+
+    newsItems.forEach(function(item){
+      var ok = !q || item.textContent.toLowerCase().indexOf(q) > -1;
+      item.style.display = ok ? '' : 'none';
+    });
+
+    if(resultEl){
+      if(!q){
+        resultEl.textContent = '当前显示 ' + cards.length + ' 条精选档案';
+      }else if(visible === 0){
+        resultEl.innerHTML = '没有找到与「' + q.replace(/[<>&]/g,'') + '」相关的内容，<span class="none">试试选手名、地图名或战队名</span>';
+      }else{
+        resultEl.textContent = '搜索「' + q + '」匹配到 ' + visible + ' 条精选档案';
+      }
+    }
+
+    /* 搜索时同步重置筛选按钮状态 */
+    if(q){
+      filterBtns.forEach(function(b){ b.classList.remove('on'); });
+    }else{
+      var active = document.querySelector('.filter-bar button.on');
+      if(!active && filterBtns[0]) filterBtns[0].classList.add('on');
+    }
+  }
+
+  if(searchInput){
+    searchInput.addEventListener('input', runSearch);
+  }
+
+  /* 锚点平滑滚动偏移（兼容不支持 scroll-margin 的场景） */
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^="/#"]');
+    if(!a) return;
+    var id = a.getAttribute('href').slice(2);
+    var target = document.getElementById(id);
+    if(!target) return;
+    e.preventDefault();
+    var offset = 40 + 64 + 14;
+    var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({ top: top, behavior: 'smooth' });
+    history.replaceState(null, '', '/#' + id);
+  });
+})();
+</script>
+</body>
+  </html>
